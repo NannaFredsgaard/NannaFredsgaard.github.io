@@ -1,0 +1,422 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+p, h1, h2, h3, ul, ul li, ul li a {
+    font-family: 'Comfortaa', cursive;
+}
+
+.headergrid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navigation {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    padding: 5%;
+}
+
+ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.logoname {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: mediumpurple;
+    text-decoration: none;
+}
+
+.logoname a {
+    text-decoration: none;
+}
+
+.links {
+    text-align: right;
+    list-style-type: none;
+}
+
+#sectionone {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr; 
+}
+
+.imagecontainer {
+    padding: 50px;
+}
+
+.fadedbox {
+    width: 400px;
+    height: 400px;
+    background-color: #F6F1F1;
+    position: absolute;
+    margin-left: 6vw;
+}
+
+.flexcontainer img {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    object-fit: fill;
+    z-index: 10;
+    margin-left: 10vw;
+    margin-top: 4vw;
+}
+
+
+.fadedboxpurple {
+    width: 300px;
+    height: 80px;
+    background-color: #D2CAF9;
+    position: absolute;
+    margin-left: 10vw;
+}
+
+.hellocontainer {
+    padding: 50px;
+}
+
+.hello {
+    position: absolute;
+    font-size: 10vh;
+    z-index: 10;
+    margin: 1vw 0 0 12vw;
+}
+
+.welcometext {
+    font-family: 'Comfortaa', cursive;
+    margin-top: 200px;
+    margin: 8vw 0 0 10vw;
+    line-height: 3vh;
+}
+
+button {
+    margin: 2vw 0 0 10vw;
+    background-color: white;
+    border: 2px solid mediumpurple;
+    color: mediumpurple;
+    font-size: 1.8vh;
+    padding: 0.8vh;
+    cursor: pointer;   
+    text-decoration: none;
+    transition-duration: 0.3s;
+    border-radius: 2px;
+}
+  
+button:hover {
+    border: 0; 
+    color: white;
+    background-color: mediumpurple;
+}
+
+
+#sectiontwo {
+    margin-top: 20vh;
+}
+
+.contentcontainerright {
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: 60% 40%; 
+    margin: 10vh;
+}
+.contentcontainerleft {
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: 40% 60%; 
+    margin: 10vh;
+}
+
+.contentimgcontainer {
+    height: 400px;
+    width: 1100px;
+    margin: 0;
+    padding: 0;
+}
+
+.contentimgcontainer img {
+    height: 100%;
+    width: 100%;
+}
+
+.contentoverskrift {
+    color: mediumpurple;
+    font-size: 2.5vh;
+}
+
+.contenttextcontainer {
+    text-align: center;
+    background-color: #F6F1F1;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*Projekter CSS*/
+
+.projektcontainer {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr; 
+    margin-top: 10vh;
+}
+
+.projekter {
+    position: absolute;
+    font-size: 10vh;
+    z-index: 10;
+    margin: 1.8vh 0 0 35vw;
+}
+
+.fadedboxpurpletwo {
+    width: 500px;
+    height: 80px;
+    background-color: #D2CAF9;
+    position: absolute;
+    margin: 0 0 0 32vw;
+}
+
+.bodycontainer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+.bgcolor {
+    background-color: #F6F1F1;
+}
+
+.vl {
+    border-left: 3px solid mediumpurple;
+    height: 200%;
+    position: absolute;
+    left: 7%;
+    margin-left: -3px;
+    top: 2%;
+}
+
+.firstcontainer {
+    margin-top: 20vh;
+    width: 100%;
+}
+
+/*.menu {
+    background-color: #D2CAF9;
+    right: 5%;
+    position: fixed;
+}
+
+.menulinks {
+    padding: 0 1.5vw 0 1.5vw;
+}
+
+.menu ul li {
+    display: block;
+    padding: 0;
+    line-height: 8vh;
+    font-size: 2vh;
+}*/
+
+.text {
+    padding: 0;
+    font-size: 2vh;
+    /*background-color: grey;*/
+    width: 30vw;
+    height: 30vh;
+    display: block;
+    float: left;
+    margin-left: 15vw;
+}
+
+.pic img {
+    width: 30vw;
+    height: 30vh;
+    /*border: solid 2px green;*/
+    display: block;
+    float: right;
+    margin-right: 15vw;
+}
+
+.secondcontainer {
+    margin-top: 20vh;
+    width: 100%;
+    margin-bottom: 5vh;
+}
+
+/*Om mig styles*/
+
+.headerbgcolor {
+    background-color: #F6F1F1;
+}
+
+.extrabgcolor {
+    background-color: #F6F1F1;
+    height: 30vh;
+}
+
+.ommigbillede {
+    width: 25vw;
+    height: 50vh;
+    position: absolute;
+    right: 10%;
+    top: 15%;
+}
+
+h1 {
+    position: absolute;
+    left: 8%;
+    top: 25%;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    font-size: 5vh;
+}
+
+.ommigtext {
+    margin-left: 8%;
+    font-size: 1.6vh;
+    line-height: 3vh;
+    font-family: 'Comfortaa', cursive;
+}
+
+.evnecontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 15vh;
+
+}
+
+.evner {
+
+    display: block;
+    text-align: center;
+
+}
+
+.evnerimg {
+    border-radius: 50%;
+    height: 100px;
+}
+
+
+.evneroverskrift {
+    text-align: center;
+}
+
+.evnertext {
+    padding: 0 4vw 0 4vw;
+}
+
+.cvtext {
+    text-align: center;
+    font-size: 2vh;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 10vh;
+}
+
+.buttoncontainer {
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.buttonnomargin {
+    margin: 0;
+}
+
+.ommigkontaktcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.ommigkontakttextcontainer  {
+    height: 50vh;
+}
+
+.ommigkontaktoverskrift {
+    margin-left: 25%;
+}
+
+.ommigkontakttext {
+    margin-left: 25%;
+    line-height: 4vh;
+}
+
+.kontaktbuttonommig {
+    margin: 0 0 0 25%;
+}
+
+.ommigimagecontainer {
+
+}
+
+.ommignederstbillede {
+    border-radius: 50%;
+    height: 50vh;
+    width: 25vw;
+    margin-left: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    bottom: 0;
+    width: 100%;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright img {
+    width: 2vw;
+    height: 2vw;
+}
+
+.copyright p{
+    font-size: 1.2vw;
+    margin: 1vw;
+}
+
+.pil {
+    float: right;
+    width: 2vw;
+    height: 2vw;
+}
+
+#bottom {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 2vw;
+}
+
+#bottom img {
+    width: 2vw;
+    height: 2vw;
+}
