@@ -139,6 +139,48 @@ button:hover {
     background-color: mediumpurple;
 }
 
+.cardcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 150px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.card {
+    text-align: center;
+}
+
+.cardheadline {
+    color: mediumpurple;
+    font-size: 3vh;
+}
+
+.cardheadline:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.card img {
+    height: 300px;
+    width: 300px;
+}
+
+.card img.imgsize {
+    height: 300px;
+    width: 350px;
+}
+
+.imgsize {
+    height: 300px;
+    width: 600px;
+}
+
+.card img:hover {
+
+}
+
 
 #sectiontwo {
     margin-top: 20vh;
@@ -171,13 +213,12 @@ button:hover {
 .contentoverskrift {
     color: mediumpurple;
     font-size: 2.5vh;
+    padding-top: 150px;
 }
 
 .contenttextcontainer {
     text-align: center;
-    background-color: #F6F1F1;
-    width: 100%;
-    height: 100%;
+    background-color: #D2CAF9;
 }
 
 
@@ -189,7 +230,7 @@ button:hover {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr; 
-    margin-top: 10vh;
+    margin-top: 20px;
 }
 
 .projekter {
