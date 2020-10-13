@@ -266,6 +266,10 @@ button:hover {
         grid-template-rows: 1fr 1fr;
 }
 
+.projektoverskrift {
+    color: mediumpurple;
+}
+
 /*Om mig styles*/
 
 .headerbgcolor {
