@@ -245,6 +245,10 @@ button:hover {
     grid-row: 1 / span 2;
 }
 
+.text p {
+    line-height: 4vh;
+}
+
 .pic img {
     width: 440px;
     height: 280px;
