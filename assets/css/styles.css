@@ -38,8 +38,13 @@ ul li {
 ul li a {
     text-decoration: none;
     list-style: none;
-    color: black;
     margin: 0;
+    color: black;
+}
+
+ul li a:hover {
+    cursor: pointer;
+    border-bottom: thin;
 }
 
 .purpleslash {
@@ -134,7 +139,7 @@ button {
 }
   
 button:hover {
-    border: 0; 
+    border: 2px solid mediumpurple; 
     color: white;
     background-color: mediumpurple;
 }
@@ -165,6 +170,7 @@ button:hover {
 .card img {
     height: 300px;
     width: 300px;
+    transition: 1s;
 }
 
 .card img.imgsize {
@@ -178,7 +184,9 @@ button:hover {
 }
 
 .card img:hover {
-
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 
@@ -260,7 +268,7 @@ button:hover {
 
 .vl {
     border-left: 3px solid mediumpurple;
-    height: 1600px;
+    height: 2800px;
     position: absolute;
     left: 155px;
     top: 2%;
@@ -279,11 +287,10 @@ button:hover {
 .text {
     padding: 0;
     font-size: 2vh;
-    width: 30vw;
-    height: 30vh;
     float: left;
     margin-left: 220px;
     grid-row: 1 / span 2;
+    margin-bottom: 40px;
 }
 
 .text p {
@@ -291,11 +298,16 @@ button:hover {
 }
 
 .pic img {
-    width: 440px;
-    height: 280px;
+    width: 540px;
+    height: 380px;
     float: right;
-    margin-right: 15vw;
+    margin-right: 100px;
     margin-bottom: 5vh;
+}
+
+.pic img.imgsize {
+    height: 500px;
+    width: 500px;
 }
 
 .secondcontainer {
