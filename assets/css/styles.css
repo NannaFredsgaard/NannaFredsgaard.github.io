@@ -12,6 +12,12 @@ p, h1, h2, h3, ul, ul li, ul li a {
     font-family: 'Comfortaa', cursive;
 }
 
+/*header {
+    border-bottom: 2px red solid;
+    width: 96%;
+    margin: auto;
+}*/
+
 
 .headergrid {
     display: grid;
@@ -525,3 +531,28 @@ footer {
 .bold {
     font-weight: bold;
 }
+
+@media only screen and (max-width: 980px) {
+
+#sectionone {
+        display: block;
+    }
+    
+.projekter {
+    margin-left: 20vw;
+    margin-top: 400px;
+}
+
+.fadedboxpurpletwo {
+    margin-left: 400px;
+    margin-top: 400px;
+}
+
+.vl {
+    height: 4000px;
+}
+
+}
+
+
+
