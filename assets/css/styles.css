@@ -76,6 +76,11 @@ ul li a:hover {
     margin: 20px 20px 10px 0;
 }
 
+.links a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 #sectionone {
     display: grid;
     grid-template-rows: auto;
