@@ -157,6 +157,10 @@ button:hover {
     text-align: center;
 }
 
+.card a {
+    text-decoration: none;
+}
+
 .cardheadline {
     color: mediumpurple;
     font-size: 3vh;
@@ -303,6 +307,13 @@ button:hover {
     float: right;
     margin-right: 100px;
     margin-bottom: 5vh;
+    transition: 1s;
+}
+
+.pic img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .pic img.imgsize {
@@ -437,6 +448,11 @@ button a:hover {
 .ommigkontakttext {
     margin-left: 25%;
     line-height: 4vh;
+}
+
+.ommigkontakttext a {
+    text-decoration: none;
+    color: black;
 }
 
 .kontaktbuttonommig {
