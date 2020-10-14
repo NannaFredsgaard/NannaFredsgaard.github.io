@@ -29,7 +29,7 @@ p, h1, h2, h3, ul, ul li, ul li a {
     float: left;
     list-style-type: none;
     padding: 0;
-    margin: 20px 0 10px 20px;
+    margin: 20px 0 0 20px;
 }
 
 ul {
@@ -63,17 +63,19 @@ ul li a:hover {
     color: mediumpurple;
     text-decoration: none;
     font-size: 3vh;
-    margin: 16px 0 10px 0;
+    margin-top: 16px;
+    margin-bottom: 10px;
 }
 
 .logoname a {
     text-decoration: none;
+    color: mediumpurple;
 }
 
 .links {
     text-align: right;
     list-style-type: none;
-    margin: 20px 20px 10px 0;
+    margin: 20px 20px 0 0;
 }
 
 .links a {
