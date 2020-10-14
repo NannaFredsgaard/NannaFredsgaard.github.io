@@ -81,8 +81,8 @@ ul li a:hover {
 }
 
 .fadedbox {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 414px;
     background-color: #F6F1F1;
     position: absolute;
     margin-left: 6vw;
@@ -90,8 +90,8 @@ ul li a:hover {
 
 .flexcontainer img {
     position: absolute;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 414px;
     object-fit: fill;
     z-index: 10;
     margin-left: 10vw;
@@ -272,7 +272,7 @@ button:hover {
 
 .vl {
     border-left: 3px solid mediumpurple;
-    height: 2800px;
+    height: 2750px;
     position: absolute;
     left: 155px;
     top: 2%;
@@ -346,8 +346,8 @@ button:hover {
 }
 
 .ommigbillede {
-    width: 25vw;
-    height: 50vh;
+    width: 350px;
+    height: 414px;
     position: absolute;
     right: 10%;
     top: 15%;
@@ -374,7 +374,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    margin-top: 15vh;
+    margin-top: 150px;
 
 }
 
