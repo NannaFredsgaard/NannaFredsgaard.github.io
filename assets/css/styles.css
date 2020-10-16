@@ -8,6 +8,12 @@ body {
     margin: 0;
 }
 
+.bgimg {
+    width: 0px;
+    height: 0px;
+    background-image: url("assets/img/icon.png");
+}
+
 p, h1, h2, h3, ul, ul li, ul li a {
     font-family: 'Comfortaa', cursive;
 }
