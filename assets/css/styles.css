@@ -18,13 +18,6 @@ p, h1, h2, h3, ul, ul li, ul li a {
     font-family: 'Comfortaa', cursive;
 }
 
-/*header {
-    border-bottom: 2px red solid;
-    width: 96%;
-    margin: auto;
-}*/
-
-
 .headergrid {
     display: grid;
     grid-template-rows: auto;
@@ -324,6 +317,10 @@ button:hover {
     line-height: 4vh;
 }
 
+.text a {
+    text-decoration: none;
+}
+
 .pic img {
     width: 540px;
     height: 380px;
@@ -356,6 +353,8 @@ button:hover {
 .projektoverskrift {
     color: mediumpurple;
 }
+
+
 
 /*Om mig styles*/
 
@@ -409,7 +408,6 @@ h1 {
 }
 
 .evnerimg {
-    /*border-radius: 50%;*/
     height: 80px;
 }
 
