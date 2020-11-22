@@ -1,3 +1,4 @@
+var i = 0;
 var txt = 'HELLO,'; 
 var speed = 100;
 
